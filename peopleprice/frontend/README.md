@@ -20,7 +20,7 @@ This project is built with React and Vite but it's currently under development. 
    ```
    npm run dev
    ```
-
+   
 ## Notes
 
 - Backend server required (see `/backend` directory).
