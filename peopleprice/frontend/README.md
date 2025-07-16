@@ -1,12 +1,27 @@
-# React + Vite
+# PeoplePrice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PeoplePrice is a web application for uploading, sharing and viewing prices of everyday items in different locations. Think of it as a community market place where people can upload prices in real time to help others who are living nearby find the best price.
 
-Currently, two official plugins are available:
+This project is built with React and Vite but it's currently under development. New features will be subsequently added overtime.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add prices for items by location
+- Filter and search for items and locations
+- View a list of submitted prices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Start the development server:
+   ```
+   npm run dev
+   ```
+
+## Notes
+
+- Backend server required (see `/backend` directory).
+- Contributions and feedback are welcome as development continues.
